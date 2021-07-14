@@ -1,0 +1,36 @@
+{
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "customSyntax": "postcss-scss",
+  "rules": {
+    "scss/at-mixin-argumentless-call-parentheses": "always",
+    "string-quotes": "single",
+    "indentation": 2,
+    "selector-attribute-quotes": "always",
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested",
+          "after-same-name"
+        ],
+        "ignore": [
+          "after-comment"
+        ]
+      }
+    ],
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested",
+          "after-single-line-comment"
+        ]
+      }
+    ],
+    "block-opening-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "block-opening-brace-space-before": "always"
+  }
+}
